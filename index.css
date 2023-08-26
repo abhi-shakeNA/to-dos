@@ -1,0 +1,127 @@
+.task-completed {
+    color: #2ecc71;
+    text-decoration: line-through;
+}
+
+
+
+
+
+/* Reset default margin and padding */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Style the task count */
+#task-count {
+    font-weight: bold;
+    color: #f39c12;
+}
+
+/* Style the input section */
+.input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#task-input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#add-task-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-task-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Style the tasks list */
+.tasks-list {
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul#tasks {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.task-text {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+
+.delete-btn, .update-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.3rem 0.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover, .update-btn:hover {
+    background-color: #c0392b;
+}
+
+
+
+
+
+
+#delete-all-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: right;
+    margin-right: 10px;
+    margin-top: 0px; /* Adjust this value to move the button up or down */
+}
+
+#delete-all-btn:hover {
+    background-color: #c0392b;
+}
